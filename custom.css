@@ -21,6 +21,26 @@ li a{
 div.header-social-links a{
   color: white !important;
 }
+div .service-item p{
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Montserrat', sans-serif;  
+  color: black;
+}
+div .service-item  h4{
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+div .testimonial-item p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+div .content_flightht_travel_dil h6{
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Montserrat', sans-serif; 
+  color: black;
+}
 header .logo .d-flex .align-items-center .me-auto .me-lg-0 i{
   background-image: url('logo2-removebg-preview (1).png');
   /*background-repeat: no-repeat;
@@ -38,6 +58,11 @@ div .popup_flight_travlDil h2{
 }
 div .popup_flight_travlDil h4{
   text-align: right;
+}
+div.imgcont{
+   margin :0px auto;
+   display: inline-block;
+   border-radius: 50%;
 }
 .overlay_flight_traveldil {
   position: fixed;
