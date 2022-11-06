@@ -1,7 +1,7 @@
 body{
   background-image:url('EventsBackground.jpg');
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   position: relative;
 }
@@ -66,6 +66,7 @@ div.imgcont{
 }
 .overlay_flight_traveldil {
   position: fixed;
+  background-image: url();
   padding:5%;
   top: 55%;
   bottom: 50%;
@@ -122,6 +123,12 @@ div.myclass a span{
   font-weight: bold;
   text-decoration: none;
   color: #333;
+}
+.close_flight_travelDl{
+  color: #000!important;
+  opacity: 0.5;
+  border-radius: 5px;
+
 }
 .pap{
   background-color: rgb(0, 0,0,0.2);
